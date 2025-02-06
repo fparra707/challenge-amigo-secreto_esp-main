@@ -70,3 +70,4 @@ function asignarTextoElemento(elemento, texto) {
     return;
 }
 
+
