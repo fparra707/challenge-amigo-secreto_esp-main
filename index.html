@@ -20,7 +20,8 @@
         <section class="input-section">
             <h2 class="section-title">Digite el nombre de sus amigos</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
+                <!--<input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre" pattern="^[A-Za-z]+$" maxlength="35" required>-->
+                <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre" pattern="^[a-zA-ZÀ-ÿ\u00f1\u00d1]+(\s*[a-zA-ZÀ-ÿ\u00f1\u00d1]*)*[a-zA-ZÀ-ÿ\u00f1\u00d1]+$" maxlength="35" required> <!--Se restringe a 35 caracteres y solo letras incluyendo acentos y la ñ-->
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>                
             </div>
            
