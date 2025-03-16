@@ -12,8 +12,8 @@ Este proyecto tiene como objetivo fortalecer las habilidades en lógica de progr
 ## 🛠️ Tecnologías Utilizadas
 
 - HTML
-- CSS (opcional para estilos)
-- JavaScript (lógica principal)
+- CSS
+- JavaScript
 
 ## 📋 Requisitos
 
